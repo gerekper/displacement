@@ -40,7 +40,7 @@ $(function() {
 
 $(function() {
   var austDay = new Date();
-  austDay = new Date(austDay.getFullYear() + 0, 12 - 1, 31);
+  austDay = new Date(austDay.getFullYear() + 1, 11 - 1, 29);
   $("#defaultCountdown").countdown({ until: austDay });
   $("#year").text(austDay.getFullYear());
 });
